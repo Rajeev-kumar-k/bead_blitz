@@ -1,0 +1,2 @@
+com/DefaultCompany/BEADBLITZ/BuildConfig.java
+ com.DefaultCompany.BEADBLITZ.BuildConfig

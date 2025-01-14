@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="34" />
+8-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:3-52
+10-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+11    <uses-feature
+11-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+13        android:required="false" />
+13-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
+14    <uses-feature
+14-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-88
+15        android:name="android.hardware.touchscreen"
+15-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-60
+16        android:required="false" />
+16-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:61-85
+17    <uses-feature
+17-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-71
+19        android:required="false" />
+19-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:72-96
+20    <uses-feature
+20-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-80
+22        android:required="false" />
+22-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:81-105
+23
+24    <application android:extractNativeLibs="true" >
+24-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
+24-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+25        <activity
+25-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+26            android:name="com.unity3d.player.UnityPlayerActivity"
+26-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+27            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+27-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+28            android:exported="true"
+28-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+29            android:hardwareAccelerated="false"
+29-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+30            android:launchMode="singleTask"
+30-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+31            android:resizeableActivity="false"
+31-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+32            android:screenOrientation="fullUser"
+32-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+33            android:theme="@style/UnityThemeSelector" >
+33-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+34            <intent-filter>
+34-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+35-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+37-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+38            </intent-filter>
+39
+40            <meta-data
+40-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+41                android:name="unityplayer.UnityActivity"
+41-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+42                android:value="true" />
+42-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+43            <meta-data
+43-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+44                android:name="android.notch_support"
+44-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+45                android:value="true" />
+45-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+46        </activity>
+47
+48        <meta-data
+48-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+49            android:name="unity.splash-mode"
+49-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+50            android:value="0" />
+50-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+51        <meta-data
+51-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+52            android:name="unity.splash-enable"
+52-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+53            android:value="True" />
+53-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+54        <meta-data
+54-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+55            android:name="unity.launch-fullscreen"
+55-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+56            android:value="True" />
+56-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+57        <meta-data
+57-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+58            android:name="notch.config"
+58-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+59            android:value="portrait|landscape" />
+59-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+60        <meta-data
+60-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+61            android:name="unity.auto-report-fully-drawn"
+61-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+62            android:value="true" />
+62-->D:\BEAD BLITZ\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+63    </application>
+64
+65</manifest>
